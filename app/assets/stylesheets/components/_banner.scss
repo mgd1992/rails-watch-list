@@ -1,16 +1,29 @@
-.banner {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 350px;
-    display: flex;
-    align-items: center;
+
+* {
+box-sizing: border-box;
 }
-  
-.banner h3 {
-    margin: 0;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    font-size: 32px;
-    font-weight: bold;
+body {
+margin: 0;
+}
+header { 
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;
+padding-top: 61.93333333%;
+background-size: cover;
+font-family: 'Sucrose Bold Two';
+}
+header h1 { 
+position: absolute;
+top: 2rem;
+right: 2rem;
+font-size: 10vw;
+line-height: .8;
+margin-top: 0;
+text-align: center;
+}
+header h1 span {
+display: block;
+font-size: 8.75vw;
+}
+@media all and (max-width: 400px) {
+main { padding: 2rem; }
 }
