@@ -8,7 +8,7 @@
     overflow: hidden;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
     width: 300px;
-    height: 250px;
+    height: 280px;
     padding: 15px;
     margin: 10px;
     position: relative;
@@ -33,12 +33,13 @@
 
 h2 a{
   text-decoration: none;
+  line-height: 50px;
 }
 
 .card-trip:hover h2,a{
   opacity: 1;
   bottom: -2;
-  left: 45%;
+  left: 42%;
   color: black;
   font-size: 17px;
 }
